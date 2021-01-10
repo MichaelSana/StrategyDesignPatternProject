@@ -7,4 +7,19 @@ public class Player{
         protected DefenceBehavior defenceBehavior;
         protected OffenceBehavior offenceBehavior;
     } 
+    public Player(String name){
+
+    }
+    public void setDefenceBehavior(){
+
+    }
+    public void setOffenceBehavior(){
+
+    }
+    public String play(){
+
+    }
+    public void turnover(){
+        
+    }
 }
