@@ -1,11 +1,11 @@
-package StrategyDesignPatternProject-1;
 
 public abstract class Player{
+    protected String name;
+    private boolean defence;
+    protected DefenceBehavior defenceBehavior;
+    protected OffenceBehavior offenceBehavior;
     public static void main(String[] args){
-        protected String name;
-        private boolean defence;
-        protected DefenceBehavior defenceBehavior;
-        protected OffenceBehavior offenceBehavior;
+       
     } 
     public Player(String name){
 
