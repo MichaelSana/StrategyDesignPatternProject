@@ -4,14 +4,11 @@ public abstract class Player{
     private boolean defence;
     protected DefenceBehavior defenceBehavior;
     protected OffenceBehavior offenceBehavior;
-    public static void main(String[] args){
-       
-    } 
     public Player(String name){
-
+        this.name = name;
     }
     public void setDefenceBehavior(){
-
+        defenceBehavior.setDefenceBehavior();
     }
     public void setOffenceBehavior(){
 
