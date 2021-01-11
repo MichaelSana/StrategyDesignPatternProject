@@ -4,7 +4,7 @@ public class Reciever extends Player {
         super(name);
     }
     public void setOffenceBehavior(){
-      
+      offenceBehavior = new RecieverBehavior();
     }
     public void setDefenceBehavior(){
 
