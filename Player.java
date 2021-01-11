@@ -8,13 +8,13 @@ public abstract class Player{
         this.name = name;
     }
     public void setDefenceBehavior(){
-        defenceBehavior.setDefenceBehavior();
+
     }
     public void setOffenceBehavior(){
 
     }
     public String play(){
-
+       
     }
     public void turnover(){
 
