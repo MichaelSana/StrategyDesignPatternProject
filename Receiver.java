@@ -11,4 +11,10 @@ public class Receiver extends Player{
 
     }
 
+    @Override
+    public String play() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
 }

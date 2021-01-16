@@ -4,19 +4,26 @@ public abstract class Player{
     private boolean defence;
     protected DefenceBehavior defenceBehavior;
     protected OffenceBehavior offenceBehavior;
-    public Player(String name){
+
+    public Player(String name) {
         this.name = name;
     }
-    public void setDefenceBehavior(){
 
+    public void setDefenceBehavior() {
+        ((Player) defenceBehavior).setDefenceBehavior();
     }
-    public void setOffenceBehavior(){
 
+    public void setOffenceBehavior() {
+        ((Player) offenceBehavior).setOffenceBehavior();
     }
-    public String play(){
-       
-    }
+
+    public abstract String play();
+
     public void turnover(){
-
+        if (defence = true)
+            defence = false;
+        else
+            defence = true;
     }
+
 }

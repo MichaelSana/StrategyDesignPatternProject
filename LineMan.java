@@ -9,7 +9,8 @@ public class Lineman extends Player{
 }
 public void setDefenceBehavior(){
     Random rand = new Random();
-    int random = rand.nextInt(2);   
+    int random = rand.nextInt(2);
+    //picks behavior based on which number the random number generator picks   
     if(random == 0){
         defenceBehavior = new BlockBehavior();
     }
@@ -19,6 +20,11 @@ public void setDefenceBehavior(){
     else if (random ==2){
         defenceBehavior = new StripBehavior();
     }
+}
+@Override
+public String play() {
+	// TODO Auto-generated method stub
+	return null;
 }
     
 }
