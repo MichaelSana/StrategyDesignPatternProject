@@ -1,6 +1,13 @@
+/**
+ * Tells the Receiver player what to do
+ * @author Michael Sana
+ */
 import java.util.Random;
 public class RecieverBehavior implements OffenceBehavior {
-
+    /**
+     * Randomly picks the play that the reciever will do
+     * @return the play that he will run
+     */
     @Override
     public String play() {
         Random rand = new Random();

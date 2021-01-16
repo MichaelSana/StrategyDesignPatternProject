@@ -1,6 +1,13 @@
+/**
+ * Tells the player running the running play he will do
+ * @author Michael Sana
+ */
 import java.util.Random;
 public class RunBehavior implements OffenceBehavior {
-
+/**
+ * Picks the running play that the player will do
+ * @return the play that the player will run
+ */
     @Override
     public String play() {
         Random rand = new Random();
