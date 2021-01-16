@@ -1,6 +1,7 @@
-public class Reciever extends Player {
 
-    public Reciever(String name) {
+
+public class Receiver extends Player{
+    public Receiver(String name) {
         super(name);
     }
     public void setOffenceBehavior(){
@@ -9,5 +10,5 @@ public class Reciever extends Player {
     public void setDefenceBehavior(){
 
     }
-    
+
 }

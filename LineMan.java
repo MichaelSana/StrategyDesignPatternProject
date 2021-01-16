@@ -1,7 +1,7 @@
 import java.util.Random;
-public class LineMan extends Player{
+public class Lineman extends Player{
 
-    public LineMan(String name) {
+    public Lineman(String name) {
         super(name);
     }
     public void setOffenceBehavior(){
