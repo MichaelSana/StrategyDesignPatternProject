@@ -1,3 +1,6 @@
+/**
+ * The main Offencive Player 
+ */
 import java.util.Random;
 public class QuarterBack extends Player{
 
@@ -19,9 +22,7 @@ public class QuarterBack extends Player{
 
     }
     public String play() {
-        if(rand == 0 )
-
-        return null;
+        return offenceBehavior.play();
     }
     
 }
