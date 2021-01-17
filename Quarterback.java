@@ -22,9 +22,4 @@ public class QuarterBack extends Player{
         //Blank because quarterback does not have a defenceBehavior
 
     }
-    //@Override
-    //public String play() {
-    //    return null;
-    //}
-    
 }

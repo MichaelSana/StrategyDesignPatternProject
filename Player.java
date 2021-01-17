@@ -6,8 +6,8 @@
 public abstract class Player{
     protected String name;
     private boolean defence;
-    DefenceBehavior defenceBehavior;
-    OffenceBehavior offenceBehavior;
+    protected DefenceBehavior defenceBehavior;
+    protected OffenceBehavior offenceBehavior;
     
     /**
      * Gives each individual player the atribute of one name
@@ -36,26 +36,27 @@ public abstract class Player{
  * @return The play that Player will do
  */
     public String play(){
-        if (defence == false){
-            setOffenceBehavior();
+       if (defence = false){
+           return "Can't find error resulting in setOffenceBehavior not being a string";
         }
-        else if(defence != true) {
-            setDefenceBehavior();
+        else if(defence = true) {
+            return "Can't find error resulting in setDefenceBehavior not being a string";
         }
         else{
-            return "return 1";
+            return null;
         }
-        return "ret 2";
     }
 /**
  * Has the players team be switched from Offence to Defence or Defence to Offence
  * @return The teams offencive or defencive positions
  */
     public void turnover(){
-        if (defence = true)
+        if (defence = true){
             defence = false;
-        else
+        }
+        else{
             defence = true;
+        }
     }
 
 }
