@@ -24,8 +24,10 @@ public class RunBehavior implements OffenceBehavior {
         else if(random == 3){
             return "runs a reverse";
         }
-        else
+        else{
             return "Is not playing";
     }
+
     
+    }
 }

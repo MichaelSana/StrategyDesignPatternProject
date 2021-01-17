@@ -28,7 +28,7 @@ public class PassBehavior implements OffenceBehavior{
             return "throws a hail mary";
         } 
         else
-            return null;
+            return "oops it shouldnt be here";
     }
     
 }

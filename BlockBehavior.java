@@ -25,7 +25,7 @@ public class BlockBehavior implements DefenceBehavior {
             return "block a catch";
         }
         else
-            return null;
+            return "oops it shouldnt be here";
     }
     
 }

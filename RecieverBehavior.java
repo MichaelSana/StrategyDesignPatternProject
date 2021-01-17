@@ -28,7 +28,7 @@ public class RecieverBehavior implements OffenceBehavior {
             return "runs a hail mary";
         } 
         else
-            return null;
+            return "oops it shouldnt reach here";
     }
     
     

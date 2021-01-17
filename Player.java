@@ -8,6 +8,7 @@ public abstract class Player{
     private boolean defence;
     DefenceBehavior defenceBehavior;
     OffenceBehavior offenceBehavior;
+    
     /**
      * Gives each individual player the atribute of one name
      * @return The name of the player
@@ -35,12 +36,16 @@ public abstract class Player{
  * @return The play that Player will do
  */
     public String play(){
-        if (defence = false){
-            return setOffenceBehavior();
+        if (defence == false){
+            setOffenceBehavior();
+        }
+        else if(defence != true) {
+            setDefenceBehavior();
         }
         else{
-        return defenceBehavior.play();
+            return "return 1";
         }
+        return "ret 2";
     }
 /**
  * Has the players team be switched from Offence to Defence or Defence to Offence
