@@ -6,8 +6,8 @@
 public abstract class Player{
     protected String name;
     private boolean defence;
-    protected DefenceBehavior defenceBehavior;
-    protected OffenceBehavior offenceBehavior;
+    DefenceBehavior defenceBehavior;
+    OffenceBehavior offenceBehavior;
     /**
      * Gives each individual player the atribute of one name
      * @return The name of the player
@@ -21,20 +21,27 @@ public abstract class Player{
      * @return The behavior they will use
      */
     public void setDefenceBehavior() {
-        ((Player) defenceBehavior).setDefenceBehavior();
+        defenceBehavior.play();
     }
 /**
      * Sets what each player will do on offence for the play
      * @return The behavior they will use
      */
     public void setOffenceBehavior() {
-        ((Player) offenceBehavior).setOffenceBehavior();
+        offenceBehavior.play();
     }
 /**
- * A abstract class which has each player choose the play they will do
- * @return none
+ * Picks the play that each Player will do
+ * @return The play that Player will do
  */
-    public abstract String play();
+    public String play(){
+        if (defence = false){
+            return setOffenceBehavior();
+        }
+        else{
+        return defenceBehavior.play();
+        }
+    }
 /**
  * Has the players team be switched from Offence to Defence or Defence to Offence
  * @return The teams offencive or defencive positions

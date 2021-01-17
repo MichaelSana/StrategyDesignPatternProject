@@ -19,14 +19,6 @@ public class Receiver extends Player{
     public void setDefenceBehavior(){
 
     }
-    /**
-     * Tells the Player which play to do
-     * @return The play that will be done
-     */
-    @Override
-    public String play() {
-        // TODO Auto-generated method stub
-        return null;
-    }
+ 
 
 }

@@ -1,5 +1,6 @@
 /**
  * The main Offencive Player 
+ * @author Michael Sana
  */
 import java.util.Random;
 public class QuarterBack extends Player{
@@ -21,8 +22,9 @@ public class QuarterBack extends Player{
         //Blank because quarterback does not have a defenceBehavior
 
     }
-    public String play() {
-        return offenceBehavior.play();
-    }
+    //@Override
+    //public String play() {
+    //    return null;
+    //}
     
 }

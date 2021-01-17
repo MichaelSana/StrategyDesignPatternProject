@@ -13,23 +13,19 @@ public class RunBehavior implements OffenceBehavior {
         Random rand = new Random();
         int random = rand.nextInt(3);        
         if (random == 0){
-            String ret = "runs a drive (up the gut)";
-            return ret;
+            return "runs a drive (up the gut)";
         }
         else if(random ==1){
-            String ret = "runs a draw";
-            return ret;
+            return "runs a draw";
         }
         else if(random == 2){
-            String ret = "runs a pitch";
-            return ret;
+            return "runs a pitch";
         }
         else if(random == 3){
-            String ret = "runs a reverse";
-            return ret;
+            return "runs a reverse";
         }
         else
-            return null;
+            return "Is not playing";
     }
     
 }

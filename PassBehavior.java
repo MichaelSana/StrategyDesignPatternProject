@@ -13,24 +13,19 @@ public class PassBehavior implements OffenceBehavior{
         Random rand = new Random();
         int random = rand.nextInt(4);  
         if(random == 0){
-            String ret = "throws a slant route";
-            return ret;
+            return "throws a slant route";
         }
         else if (random == 1){
-            String ret = "throws a out route";
-            return ret;
+            return "throws a out route";
         }
         else if (random ==2){
-            String ret = "throws a seem route";
-            return ret;
+            return "throws a seem route";
         } 
         else if (random == 3){
-            String ret = "throws a screen pass";
-            return ret;
+            return "throws a screen pass";
         }
         else if (random == 4){
-            String ret = "throws a hail mary";
-            return ret;
+            return "throws a hail mary";
         } 
         else
             return null;

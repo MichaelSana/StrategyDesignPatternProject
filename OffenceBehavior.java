@@ -3,5 +3,5 @@
  * @author Michael Sana
  */
 public interface OffenceBehavior {
-    public String play(); 
+    public String play();
 }

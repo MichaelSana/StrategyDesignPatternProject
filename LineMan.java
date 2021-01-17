@@ -21,10 +21,10 @@ public void setDefenceBehavior(){
         defenceBehavior = new StripBehavior();
     }
 }
-@Override
-public String play() {
+//@Override
+//public String play() {
 	// TODO Auto-generated method stub
-	return null;
-}
+//	return null;
+//}
     
 }

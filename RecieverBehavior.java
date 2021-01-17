@@ -13,24 +13,19 @@ public class RecieverBehavior implements OffenceBehavior {
         Random rand = new Random();
         int random = rand.nextInt(4);  
         if(random == 0){
-            String ret = "runs a slant route";
-            return ret;
+            return "runs a slant route";
         }
         else if (random == 1){
-            String ret = "runs a out route";
-            return ret;
+            return "runs a out route";
         }
-        else if (random ==2){
-            String ret = "runs a seem route";
-            return ret;
+        else if (random ==2){   
+            return "runs a seem route";
         } 
-        else if (random == 3){
-            String ret = "runs a screen pass";
-            return ret;
+        else if (random == 3){   
+            return "runs a screen pass";
         }
         else if (random == 4){
-            String ret = "runs a hail mary";
-            return ret;
+            return "runs a hail mary";
         } 
         else
             return null;

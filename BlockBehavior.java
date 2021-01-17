@@ -13,20 +13,16 @@ public class BlockBehavior implements DefenceBehavior {
         Random rand = new Random();
         int random = rand.nextInt(3);
         if(random == 0 ){
-            String output = "block a kick";
-            return output;
+            return "block a kick";
         }
         else if(random == 1 ){
-            String output = "block a punt";
-            return output;
+            return "block a punt";
         }
         else if(random == 2 ){
-            String output = "block a pass";
-            return output;
+            return  "block a pass";
         }
         else if(random == 3 ){
-            String output = "block a catch";
-            return output;
+            return "block a catch";
         }
         else
             return null;
